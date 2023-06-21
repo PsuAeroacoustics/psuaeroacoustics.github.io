@@ -38,6 +38,7 @@ jobs:
           # Default: ${{ github.repository }}
           repository: 'PsuAeroacoustics/OpenCOPTER'
           submodules: 'recursive'
+          path: 'OpenCOPTER'
       - uses: actions/setup-python@v4
         with:
           python-version: '3.10'
