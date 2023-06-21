@@ -36,7 +36,7 @@ jobs:
         with:
           # Repository name with owner. For example, actions/checkout
           # Default: ${{ github.repository }}
-          repository: 'https://github.com/PsuAeroacoustics/OpenCOPTER'
+          repository: 'PsuAeroacoustics/OpenCOPTER'
           submodules: 'recursive'
       - uses: actions/setup-python@v4
         with:
